@@ -61,7 +61,6 @@ These functions allow the Currency Converter to perform all necessary operations
 
 The API key is stored securely as an environment variable and is not exposed in the codebase.
 
-# Currency Converter
 
 A simple and efficient currency conversion application built with React and Vite.
 
@@ -97,40 +96,20 @@ npm run dev
 
 ## Usage
 
-### Currency Selection
-Use the dropdown menus labeled "From" and "To" to select the currencies you want to convert between.
-
-### Amount Input
-Enter the amount you want to convert in the input field labeled "Enter Amount...".
-
-### Conversion
-The conversion result is automatically displayed below the input fields. You can also click the "Get Exchange Rate" button to manually trigger a conversion.
-
-### Dark Mode
-Toggle the switch in the top-right corner to switch between light and dark modes for comfortable viewing in different lighting conditions.
-
-### Responsive Design
-The application is fully responsive and can be used on both desktop and mobile devices.
-
-### Real-time Updates
-Exchange rates are fetched in real-time when you change currencies or amounts, ensuring up-to-date conversion results.
+- `Currency Selection`:Use the dropdown menus labeled "From" and "To" to select the currencies you want to convert between.
+- `Amount Input`:Enter the amount you want to convert in the input field labeled "Enter Amount...".
+- `Conversion`:The conversion result is automatically displayed below the input fields. You can also click the "Get Exchange Rate" button to manually trigger a conversion.
+- `Dark Mode`:Toggle the switch in the top-right corner to switch between light and dark modes for comfortable viewing in different lighting conditions.
+- `Responsive Design`:The application is fully responsive and can be used on both desktop and mobile devices.
+- `Real-time Updates`:Exchange rates are fetched in real-time when you change currencies or amounts, ensuring up-to-date conversion results.
 
 ## Components
 
-### App.jsx
-The main component that orchestrates the entire application, managing state and API calls.
-
-### CurrencySelector.jsx
-Dropdown component for selecting currencies. Displays flags and currency codes.
-
-### AmountInput.jsx
-Input field for entering the amount to be converted.
-
-### ConversionResult.jsx
-Displays the result of the currency conversion, including loading states.
-
-### DarkMode.jsx
-Toggle switch for enabling/disabling dark mode across the application.
+- `App.jsx`:The main component that orchestrates the entire application, managing state and API calls.
+- `CurrencySelector.jsx`:Dropdown component for selecting currencies. Displays flags and currency codes.
+- `AmountInput.jsx`:Input field for entering the amount to be converted.
+- `ConversionResult.jsx`:Displays the result of the currency conversion, including loading states.
+- `DarkMode.jsx`:Toggle switch for enabling/disabling dark mode across the application.
 
 Each component is designed to be reusable and manages its own local state where appropriate. They are composed in App.jsx to create the complete Currency Converter interface.
 
@@ -172,6 +151,7 @@ Example of Tailwind usage:
 
 ```jsx
 <div className={`bg-[#4EEFB2] dark:bg-gray-800 p-7 rounded-lg shadow-xl max-w-md w-full transition-all duration-300`}>
+```
 
 ## License
 
