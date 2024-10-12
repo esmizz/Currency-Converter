@@ -29,7 +29,7 @@ A modern, responsive currency converter built with React and Vite.
 - ExchangeRate-API
 
 ## Project Structure
-
+```
 currency-converter/
 ├── public/
 │   └── Currency.svg
@@ -48,7 +48,7 @@ currency-converter/
 ├── postcss.config.js
 ├── tailwind.config.js
 └── vite.config.js
-
+```
 ## API Integration
 
 The Currency Converter integrates with the ExchangeRate API to fetch real-time currency exchange data. API calls are handled via Axios and centralized in the `src/services/api.js` file. The main API functions include:
